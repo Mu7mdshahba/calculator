@@ -1,0 +1,78 @@
+            * {
+                margin: 0;
+                padding: 0;
+                overflow-x: hidden;
+                box-sizing: border-box;
+            }
+            
+            body {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+            }
+            
+            .main-section {
+                padding: 10px 6px;
+                box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.3);
+                width: 300px;
+                height: 500px;
+                border-radius: 12px;
+                background-color: #22252d;
+                overflow: hidden;
+            }
+            
+            .buttons {
+                /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly; */
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                padding: 10px;
+                gap: 10px;
+            }
+            
+            form input {
+                padding: 28px 18px;
+                width: 100%;
+                margin-bottom: 10px;
+                background-color: #0a0c11;
+                border: none;
+                outline: none;
+                border-radius: 12px;
+                color: white;
+                text-align: end;
+                font-size: 1.3rem;
+            }
+            
+            .btn {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px 5px;
+                border-radius: 10px;
+                cursor: pointer;
+                outline: none;
+                border: none;
+                font-size: 1.1rem;
+                cursor: pointer;
+            }
+            
+            .btn::placeholder {
+                font-size: 1.1rem;
+                color: white;
+                /* direction: ; */
+            }
+            
+            .btn-yellow {
+                background-color: orange;
+            }
+            
+            .btn-red {
+                background-color: red;
+            }
+            
+            .btn-dark {
+                background-color: rgb(5, 140, 5);
+            }
